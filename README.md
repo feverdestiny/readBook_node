@@ -2,7 +2,7 @@
 
 
 接触node两个多月来，因项目紧急，一直无法好好的学习node相关模块，以前接触过python爬虫，今天尝试用node也来写一个小爬虫。
-本文用到node模块有：
+本文用到node模块有：cheerio、request、fs、path
 ## 效果图
 ![](/images/img1.png)
 ## node模块
@@ -12,6 +12,7 @@ const request = require("request");         //对http进一步封装的请求库
 const fs = require("fs");                   //文件操作
 const path = require("path");               //路径相关
 ```
+因为使用到ES6语法，所以node版本需升级到7.0以上，本文使用的为node 8.1.3版本
 ## 步骤
 拉取项目
 ```js
